@@ -1,0 +1,2 @@
+model_checkpoint_path: "brad_rms_001_50_16"
+all_model_checkpoint_paths: "brad_rms_001_50_16"
