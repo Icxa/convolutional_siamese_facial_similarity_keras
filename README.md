@@ -3,6 +3,10 @@ Facial geometry and structure is _fascinating_. Studies come out every now and t
 I want to employ deep learning to analyze faces in all sorts of ways. But that's quite complex, so to begin, I'm constructing a comparative 'facial similarity' tool using Siamese convolutional neural networks. 
 
 How do we get a net to judge similarity? The most direct way is to feed it two faces, and teach it to distinguish congruent or different identities.
+- Tools used:
+    - Keras
+    - NumPy
+    
 ## Siamese CNN: Are these two faces different people, or the same person at different angles?
 Think of a Siamese net as two identical-twin networks lined up side by side; same architecture, same weights. They take one image each, run it through convolutional layers, and output a flattened feature vector.
 By comparing these two vectors in a contrastive loss function, we can garner something similar to similarity.
