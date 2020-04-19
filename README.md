@@ -30,6 +30,10 @@ By training it in this way, once it reaches a satisfactory accuracy, we can remo
     - compared to a traditional classifier CNN, for a similarity network such as this, images_per_class is more important than number_of_classes
   - Load model into SageMaker to reduce run load
   - Experiment with transfer learning (VGGnet, FaceNet)
+  
+### Blog posts
+Overview
+https://medium.com/@mark.s.cleverley/face-identification-siamese-convolutional-neural-nets-b4c66771595c
 
 ### Structural concepts borrowed from:
 Harshvardhan Gupta
